@@ -6,6 +6,7 @@ var myTopThreeColleges = {};
     a) avgGPA (an integer/float)
     b) avgSAT (an integer)
     c) 3 potential majors you're interested in studying (an array)
+    d) The average incomes for those majors for graduates (an object) ex. averageIncomes: {"Pyschology": 45000, "Computer Science"...}
 */
 
 
@@ -14,8 +15,10 @@ var myTopThreeColleges = {};
 /*
 2) console.log these statements for each college
   My first choice is COLLEGE NAME. In order to get in, I’ll need an average gpa of AVERAGE GPA.
-  Three majors that I’d be interested in studying at COLLEGE NAME are 3 POTENTIAL MAJORS
-  (HINT: You'll need to iterate over the array to get to the college names).
+  Three majors that I’d be interested in studying at COLLEGE NAME are 3 POTENTIAL MAJORS. The average income
+  for graduates of those majors are AVERAGE INCOMES (print keys and values)
+  (HINT: You'll need to iterate over the array and the object to get to the college names/average incomes
+  You can use a regular for loop for the array, but should use a for in loop for the object).
 */
 
 
